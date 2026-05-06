@@ -30505,11 +30505,11 @@ function deprecation(core) {
         /**
          * @class
          * @private
-         * @name PIXI.filters.VoidFilter
+         * @name PIXI.filters.AlphaFilter
          * @see PIXI.filters.AlphaFilter
          * @deprecated since version 4.5.7
          */
-        VoidFilter: {
+        AlphaFilter: {
             get: function get() {
                 warn('VoidFilter has been renamed to AlphaFilter, please use PIXI.filters.AlphaFilter');
 
